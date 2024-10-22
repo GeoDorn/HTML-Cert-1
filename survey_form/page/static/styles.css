@@ -26,16 +26,14 @@ h2 {
 fieldset {
   background-color: rgba(9, 9, 51, 0.699);
   border: none;
-  padding: 2rem 2rem;
+  padding: 2rem 3rem;
   display: block;
   align-items: center;
-
-  
 }
 
 form {
-  width: 60vw;
-  max-width: 500px;
+  width: 70vw;
+  max-width: 600px;
   min-width: 300px;
   margin: 0 auto;
 }
@@ -45,7 +43,6 @@ label {
   margin-top: 20px;
   margin-bottom: 20px;
   align-items: center;
-  
 }
 
 input,
@@ -54,7 +51,7 @@ select {
   margin: 10px 0 0 0;
   width: 100%;
   min-height: 2em;
-  display: block;
+  display: inline-block;
   text-indent: 15px;
 }
 
@@ -69,7 +66,7 @@ input,
 textarea {
   border: 1px solid #0a0a23;
   color: #000000;
-  position: relative;
+  
 }
 
 input[type="submit"] {
